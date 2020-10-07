@@ -1,9 +1,5 @@
 package rpnkv.iv
 
-/**
- * Есть список из интов. Подсчитать количество последоватеьных перемен знака (ноль не перемена)
- *
- */
 object First {
   def switchesCount(list: List[Integer]): Integer = {
     var cnt = 0

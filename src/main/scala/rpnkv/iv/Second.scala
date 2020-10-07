@@ -19,14 +19,14 @@ object Second {
         } else {
           prev._1
         }
-      } else {
-        if (prev._2 < 0) {
-          if (current > 0) {
+      }else{
+        if(prev._2 < 0){
+          if(current > 0){
             prev._1 + 1
-          } else {
+          }else {
             prev._1
           }
-        } else {
+        }else{
           prev._1
         }
       }
@@ -36,7 +36,4 @@ object Second {
 
   def notZero(int: Int): Boolean = int != 0
 
-  def pair: (String, String) = {
-    "x" -> "x"
-  }
 }
